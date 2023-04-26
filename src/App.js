@@ -1,11 +1,15 @@
 import "./App.css";
-import { Fragment, useEffect } from "react";
-
+import { Fragment } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Meme from "./components/Meme";
 function App() {
-  useEffect(() => {});
   return (
     <Fragment>
-      <h1>Hello 2</h1>
+      <Router basename="meme">
+        <Routes>
+          <Route path="/" element={<Meme />} />
+        </Routes>
+      </Router>
     </Fragment>
   );
 }
