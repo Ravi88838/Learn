@@ -5,7 +5,7 @@ import Meme from "./components/Meme";
 function App() {
   return (
     <Fragment>
-      <Router basename="meme">
+      <Router>
         <Routes>
           <Route path="/" element={<Meme />} />
         </Routes>
