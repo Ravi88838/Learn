@@ -1,13 +1,11 @@
 import "./App.css";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect } from "react";
 
 function App() {
-  const [state, setState] = useState("Hi");
   useEffect(() => {});
   return (
     <Fragment>
       <h1>Hello 2</h1>
-      {state}
     </Fragment>
   );
 }
