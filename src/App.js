@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {});
   return (
     <Fragment>
-      <h1>Hello</h1>
+      <h1>Hello 2</h1>
     </Fragment>
   );
 }
